@@ -1,0 +1,42 @@
+export const tracks = [
+  {
+    id: 1,
+    url: 'loveyourz',
+    title: 'Love Yourz',
+    artist: 'JCole',
+    genre: 'Hip-Hop/Rap',
+    releaseDate: '28-11-2020',
+  },
+  {
+    id: 2,
+    url: 'goosebumps',
+    title: 'Goosebumps',
+    artist: 'Travis Scott',
+    genre: 'Rap/Freestyle',
+    releaseDate: '28-11-2020',
+  },
+  {
+    id: 3,
+    url: 'd4l',
+    title: 'D4L',
+    artist: 'Drake',
+    genre: 'Hip-Hop/Rap',
+    releaseDate: '28-11-2020',
+  },
+  {
+    id: 4,
+    url: 'bop',
+    title: 'BOP',
+    artist: 'DaBaby',
+    genre: 'Mumble Rap',
+    releaseDate: '28-11-2020',
+  },
+  {
+    id: 5,
+    url: 'whywouldistop',
+    title: 'Why would I stop?',
+    artist: 'Big Sean',
+    genre: 'Mumble Rap',
+    releaseDate: '28-11-2020',
+  },
+];

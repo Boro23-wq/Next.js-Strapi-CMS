@@ -1,0 +1,52 @@
+/* import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400&display=swap');
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Kanit, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+p {
+  float: right;
+  font-size: 0.65rem;
+  color: rgb(53, 52, 52);
+  padding-bottom: 0.5rem;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.songs {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.25);
+  transition: 0.3s;
+  width: 250px;
+  height: 380px;
+  margin: 20px;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 0.2rem 2rem;
+}
