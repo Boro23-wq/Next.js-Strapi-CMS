@@ -1,3 +1,9 @@
-# Strapi application
+## Run the server
 
-A quick description of your strapi application
+- npm install
+- npm run develop
+
+## Note
+
+- Create a `.env` file on the root and paste your Mongo URI as:
+    - DATABASE_URI=<DATABASE_URI_STRING>
